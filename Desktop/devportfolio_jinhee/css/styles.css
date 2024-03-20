@@ -9,7 +9,8 @@
     Description: This file contains all the styles associated with the page
     that don't come from third party libraries. This file gets compiled using
     Gulp and send to the /css folder which is then loaded on the page.
-*/body{font-family:'Lato', sans-serif;font-size:16px}
+*/
+body{font-family:'Lato', sans-serif;font-size:16px}
 body.active{overflow:hidden;z-index:-1}
 .no-js #experience-timeline>div{background:#fff;padding:10px;margin-bottom:10px;border:1px solid #dcd9d9}
 .no-js #experience-timeline>div h3{font-size:1.5em;font-weight:300;color:#374054;display:inline-block;margin:0}
@@ -26,6 +27,7 @@ header a:focus{color:#3498db;text-decoration:none}
 header.active{display:block}
 header.sticky{position:fixed;z-index:999}
 #menu.active{display:block}
+table{color: #59666f;}
 #mobile-menu-open{display:none;cursor:pointer;position:fixed;right:15px;top:10px;color:#3498db;font-size:1.5em;z-index:20;padding:0 7px;border-radius:4px;background:#fff}
 #mobile-menu-close{display:none;text-align:right;width:100%;background:#fff;font-size:1.5em;padding-right:15px;padding-top:10px;cursor:pointer;color:#3498db}
 #mobile-menu-close span{font-size:0.5em;text-transform:uppercase}
